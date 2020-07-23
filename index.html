@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)file:///C:/Users/xyz/Desktop/phaaru/index.html -->
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <center>
+
+
+    <br>
+
+
+    <h4><a href="assignment 17_to_20.html">Click here to see assignment from chapter 17-20</a></h4>
+    <br>
+
+  </center>
+
+  <p>click on this link</p>
+  <a id="clik" onclick="clik()" href="file:///C:/Users/xyz/Desktop/phaaru/index.html">click me</a>
+
+
+
+  <br>
+
+  <div style="margin-top:20px  ;">
+    <h1>MOBILE PHONE LOCKUP</h1>
+
+    <img style="padding: 2px;" height="200px" width=" 200px" id="two" onclick="foc()"
+      src="file:///C:/Users/xyz/Desktop/phaaru/a.jpg" alt="">
+    <img style="padding: 2px;" height="200px" width=" 200px" id="two" onclick="foc()"
+      src="file:///C:/Users/xyz/Desktop/phaaru/b.jpg" alt="">
+    <img style="padding: 2px;" height="200px" width=" 200px" id="two" onclick="foc()"
+      src="file:///C:/Users/xyz/Desktop/phaaru/download.jpg" alt="">
+
+  </div>
+
+
+
+
+  <h3>Click the button to remove the desired row in the table.</h3>
+
+  <table id="myTable" style="border: 2px solid black;">
+
+    <tbody>
+      <tr>
+        <th>INDEX</th>
+        <th>NAME</th>
+        <th>CLASS</th>
+      </tr>
+      <tr>
+        <td>0</td>
+        <td>ALI</td>
+        <td>10</td>
+
+
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>joe</td>
+        <td>9</td>
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>bide</td>
+        <td>8</td>
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td>rafay</td>
+        <td>7</td>
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+      </tr>
+
+
+      <tr>
+        <td>4</td>
+        <td>hamza</td>
+        <td>6</td>
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+      </tr>
+
+
+      <tr>
+        <td>5</td>
+        <td>zei</td>
+        <td>5</td>
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+      </tr>
+
+
+      <tr>
+        <td>6</td>
+        <td>zein</td>
+        <td>4</td>
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+      </tr>
+
+
+      <tr>
+        <td>7</td>
+        <td>zia</td>
+        <td>3</td>
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+      </tr>
+
+
+      <tr>
+        <td>8</td>
+        <td>bilal</td>
+        <td>2</td>
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+      </tr>
+
+
+      <tr>
+        <td>9</td>
+        <td>farwa</td>
+        <td>1</td>
+        <td><input type="button" value="Delete" onclick="deleteRow(this)"></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4>hover ur mouse to change image</h4>
+
+
+  <img width="300px" height="200px" onmouseover="this.src=&#39;anime2.jpg&#39;;"
+    onmouseout="this.src=&#39;anime.jpg&#39;;" src="file:///C:/Users/xyz/Desktop/phaaru/anime.jpg" alt="hover effect">
+
+
+  <br>
+
+  <button type="button" onclick="hello()">Click me to increase </button>
+  <button type="button" onclick="hello1()">Click me to decrease </button>
+
+  <p>Clicks: <a id="clicks">0</a></p>
+
+
+
+
+
+  <label>email</label><br>
+  <input type="text" id="name"><br>
+  <label>password</label><br>
+  <input type="text" id="name1"><br><br>
+
+  <p id="demo"></p>
+  <button onclick="form2()">Submit</button>
+
+
+
+
+
+  <!-- **********************************************QUESTION NO 02 -->
+  <div style="text-align:left; margin: 20px auto">
+    <p> Suppose in your webpage there is content area in which
+      you have entered your item details, but user can only see
+      some details on first look. <a href="file:///C:/Users/xyz/Desktop/phaaru/index.html#" id="anchor"
+        onclick="visible()">Read More</a> <span id="visible" style="visibility: hidden;"> user clicks on “Read
+        more” button, full detail of that particular item will be
+        displayed</span>
+    </p>
+  </div>
+
+
+
+
+
+  **********************************************QUESTION NO 03 --&gt;
+
+  <fieldset style="margin: 20px auto; text-align: center;">
+    <legend>
+      <h1>Sign-up</h1>
+    </legend>
+    <label for="email">NAME: &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <input placeholder="Name" style="margin: 20px; padding: 5px; 
+                font-size: larger;" size="30" type="text" name="name" id="name">
+    </label><br>
+    <label for="email">EMAIL: &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <input placeholder="email" style="margin: 20px; padding: 5px; 
+                font-size: larger;" size="30" type="text" name="email" id="email">
+    </label><br>
+    <label for="password">PASSWORD:
+      <input type="password" size="30" id="password" placeholder="password"
+        style="margin: 20px; padding: 5px; font-size: larger;">
+    </label><br>
+    <label for="submit"><button
+        style="color: #fff; font-size: larger; border: none; background-color: #382898; padding: 10px 20px; margin: 20px;"
+        id="submit" onclick="khali(),mainfunc()">Sign-up</button></label>
+  </fieldset>
+
+  <table id="table" style="margin: 20px auto;" cellspacing="5px" cellpadding="5px 100px">
+    <tbody>
+      <tr>
+        <td>S.NO</td>
+        <td>NAME</td>
+        <td>EMAIL</td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
+
+
+
+  <br>
+
+
+  <center>
+
+    <h4>CLICK ON ANY IMAGE TO SEE AS MODEL</h4>
+
+    <img onclick="fuc()" height="300px" width="280px" id="tada" src="file:///C:/Users/xyz/Desktop/phaaru/1.jpg" alt="">
+    <img onclick="fuc1()" id="tada1" src="file:///C:/Users/xyz/Desktop/phaaru/2.jpg" height="300px" width="280px"
+      alt="">
+    <img onclick="fuc2()" id="tada2" src="file:///C:/Users/xyz/Desktop/phaaru/3.jpg" height="300px" width="280px"
+      alt="">
+    <img onclick="fuc3()" id="tada3" height="300px" width="280px" src="file:///C:/Users/xyz/Desktop/phaaru/5.jpg"
+      alt="">
+
+    <button id="test"> <a href="">
+        <p id="call"></p>
+      </a> </button>
+
+    <!-- <button onclick="fuc()">asd</button> -->
+    <br>
+
+
+
+
+
+
+
+
+    <p id="aga">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam id impedit ea optio ab aut, architecto
+      magnam, consequuntur quae sequi, perferendis voluptatibus non natus officiis tempora fugiat vitae voluptas nemo.
+    </p>
+    <button onclick="yara()">zoom in +</button>
+    <button onclick="yara1()">zoom out -</button>
+    <script>
+
+
+
+
+
+
+
+    </script>
+
+
+  </center>
+
+
+  <br>
+
+  <button> <a href=""> click this to reset </a> </button>
+
+
+
+
+
+
+
+  <div>
+    <h1> DOM </h1>
+    <div id=”form-content” class=”content”>
+      <label for=”first-name”>First Name</label>
+      <input type=”text” id=”first-name” />
+      <label for=”last-name”>Last Name</label>
+      <input type=”text” id=”last-name” />
+      <label for=”email”>Email</label>
+      <input type=”text” id=”email” />
+    </div>
+    <div id=”main-content” class=”content”>
+      <p class=”render”> First Name : Alex</p>
+      <p class=”render” id=”lastName”>Last Name: Bank</p>
+      <p class=”render”> Email : alexbank@example.com</p>
+      <p class=”render”> Country : Pakistan </p>
+      <p class=”render”> contact : +92 300 1234567</p>
+    </div>
+  </div>
+
+
+
+
+
+  <script src="app.js"></script>
+</body>
+
+
+</html>
